@@ -6,14 +6,40 @@ public class ProgramUI
         static int statusCheck = 0; //Checks if player is winning, is tied, or is still playing. 
     public void Run(string[] args)
     {
-        // do {
+         do 
+         {
+                Console.Clear();
+                System.Console.WriteLine("Player 1:X and Player 2:O");
+                System.Console.WriteLine("\n");
+                if(player % 2 == 0)
+                {
+                    System.Console.WriteLine("Player 2 Chance");
+                }
+                else
+                {
+                    System.Console.WriteLine("Player 1 Chance");
+                }
+                System.Console.WriteLine("\n");
+                Board();
+                startPoint = int.Parse(Console.Readline());
+                if (boardArray[startPoint] != 'X' && boardArray[startPoint]!= '0')
+                {
+                    boardArray[startPoint] ='O';
+                    player++;
+                }
+                else
+                {
+                    boardArray[startPoint] = 'X';
+                    player++;
+                }
+         
                 // Choosing player turn
                 // Where to place and if place is already full, reloading board so player can choose again.
         // }
         // while {
                 // Call WinStatus to constantly check if a player has won or drawn.
         // }
-    }
+     }
 
 
     private static void Board()
@@ -35,5 +61,5 @@ public class ProgramUI
         // Check for a draw
 
     }
-
-    }
+}
+}
