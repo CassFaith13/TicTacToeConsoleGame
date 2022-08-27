@@ -13,3 +13,11 @@
 /Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/obj/Debug/net6.0/TicTacToe.pdb
 /Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/obj/Debug/net6.0/TicTacToe.genruntimeconfig.cache
 /Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/obj/Debug/net6.0/ref/TicTacToe.dll
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.csproj.AssemblyReference.cache
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.AssemblyInfoInputs.cache
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.AssemblyInfo.cs
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.dll
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\refint\TicTacToe.dll
+C:\ElevenFiftyAcademy149\dotnetProjects\TicTacToeConsoleGame\obj\Debug\net6.0\TicTacToe.pdb
