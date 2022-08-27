@@ -1,3 +1,4 @@
+namespace TicTacToeConsoleGame;
 
 public class ProgramUI
 {
@@ -23,8 +24,10 @@ public class ProgramUI
             }
             System.Console.WriteLine("\n");
             Board();
-            startPoint = int.Parse(Console.Readline());
+            startPoint = int.Parse(Console.ReadLine());
             if (boardArray[startPoint] != 'X' && boardArray[startPoint] != '0')
+            {
+                if (player % 2 == 0)
             {
                 boardArray[startPoint] = 'O';
                 player++;
@@ -43,7 +46,7 @@ public class ProgramUI
             Thread.Sleep(2000);
         }
         statusCheck = CheckWin();
-    }    
+        }    
             while (statusCheck != 1 && statusCheck != -1);
             Console.Clear();
             Board();
@@ -55,7 +58,7 @@ public class ProgramUI
             {
                 System.Console.WriteLine("Draw");
             }
-            Console.Readline();
+            Console.ReadLine();
         }
 
     private static void Board()
@@ -125,8 +128,8 @@ private static int CheckWin()
     {
         return 0;
     }
+  }
 }
-
 
 
          
