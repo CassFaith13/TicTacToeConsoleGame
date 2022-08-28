@@ -1,3 +1,5 @@
-﻿ProgramUI tic = new ProgramUI();
+﻿using TicTacToeConsoleGame;
+
+ProgramUI tic = new ProgramUI();
 
 tic.Run();

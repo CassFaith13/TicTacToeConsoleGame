@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "/Users/home/.nuget/packages/": {}
+    "/Users/cassfaith/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/TicTacToe.csproj",
+      "projectUniqueName": "/Users/cassfaith/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/FinalProject/TicTacToeConsoleGame/TicTacToe.csproj",
       "projectName": "TicTacToe",
-      "projectPath": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/TicTacToe.csproj",
-      "packagesPath": "/Users/home/.nuget/packages/",
-      "outputPath": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/TicTacToe/obj/",
+      "projectPath": "/Users/cassfaith/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/FinalProject/TicTacToeConsoleGame/TicTacToe.csproj",
+      "packagesPath": "/Users/cassfaith/.nuget/packages/",
+      "outputPath": "/Users/cassfaith/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/FinalProject/TicTacToeConsoleGame/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/home/.nuget/NuGet/NuGet.Config"
+        "/Users/cassfaith/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -49,7 +49,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -58,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }
