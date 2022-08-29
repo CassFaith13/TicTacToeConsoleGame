@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jpiOJ5vVfL7TkBLRs5LX6Rln3gvv7eee2nZSLPNelm9DTTJwxUME5lnw+2Dq5fAM3yDV8/66pbX/64lpL5qSCg==",
+  "dgSpecHash": "kUs1cnjvYxPf6lYZUYX+ll8GvO3hSvV3OLohxI338jnQcd/uGgskgP0Nsc9LlMK+bpYJXzD7XDU70ffA5cRswQ==",
   "success": true,
-  "projectFilePath": "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\TicTacToe.csproj",
+  "projectFilePath": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/TicTacToe.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

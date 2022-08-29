@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\TicTacToe.csproj": {}
+    "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/TicTacToe.csproj": {}
   },
   "projects": {
-    "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\TicTacToe.csproj": {
+    "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/TicTacToe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\TicTacToe.csproj",
+        "projectUniqueName": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/TicTacToe.csproj",
         "projectName": "TicTacToe",
-        "projectPath": "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\TicTacToe.csproj",
-        "packagesPath": "C:\\Users\\Micha\\.nuget\\packages\\",
-        "outputPath": "C:\\ElevenFiftyAcademy149\\dotnetProjects\\TicTacToeConsoleGame\\obj\\",
+        "projectPath": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/TicTacToe.csproj",
+        "packagesPath": "/Users/home/.nuget/packages/",
+        "outputPath": "/Users/home/Documents/ElevenFiftyAcademy149/ElevenFiftyProjects/codingFoundations/dotnetProjects/RepoConsoleApp/TicTacToeConsoleGame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Micha\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/home/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.302/RuntimeIdentifierGraph.json"
         }
       }
     }

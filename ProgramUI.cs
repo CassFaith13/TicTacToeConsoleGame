@@ -26,7 +26,6 @@ public class ProgramUI
         System.Console.WriteLine("      |       |");
         System.Console.WriteLine("  {0}   |   {1}   |   {2} ", boardArray[6], boardArray[7], boardArray[8]);
         System.Console.WriteLine("      |       |");
-      
     }
     private static void ClearBoard(){
         for (int i = 0; i < boardArray.Length; i++)
@@ -99,30 +98,25 @@ public class ProgramUI
         System.Console.WriteLine("Welcome to our Tic Tac Toe game. The board is numbered 1 - 9 and the spaces are considered 'empty' if there is a number in it. In order to play, each player will choose to place their X or O to a numbered space on the board. The first player to get three in a row wins. Press any key to begin the game!");
         Console.ReadKey();
 
-        // ConsoleColor.ForegroundColor = ConsoleColor.DarkBlue;
         System.Console.WriteLine("What is your name Player 1?");
         string? playerOne = Console.ReadLine();
 
-        // ConsoleColor.ForegroundColor = ConsoleColor.DarkBlue;
         System.Console.WriteLine("What is your name Player 2?");
         string? playerTwo = Console.ReadLine();
 
         do
         {
             Console.Clear();
-            // ConsoleColor.ForegroundColor = ConsoleColor.Cyan;
             System.Console.WriteLine($"{playerOne}: X and {playerTwo}: O");
             System.Console.WriteLine("\n");
 
             Board();
             if (player % 2 == 0)
             {
-                // ConsoleColor.ForegroundColor = ConsoleColor.DarkGreen;
                 System.Console.WriteLine($"{playerTwo}'s Turn. Choose a numbered space.");
             }
             else
             {
-                // ConsoleColor.ForegroundColor = ConsoleColor.DarkGreen;
                 System.Console.WriteLine($"{playerOne}'s Turn. Choose a numbered space.");
             }
             System.Console.WriteLine("\n");
@@ -144,7 +138,6 @@ public class ProgramUI
             }
             else
             {
-                // ConsoleColor.ForegroundColor = ConsoleColor.Red;
                 System.Console.WriteLine("That space has already been claimed. Try another space.");
                 System.Console.WriteLine("\n");
                 System.Console.WriteLine("Please wait for a new board to load......");
@@ -163,17 +156,16 @@ public class ProgramUI
             if ((player % 2) + 1 == 1)
 
             {
-                Console.WriteLine($"Player {playerOne} has won");
+                Console.WriteLine($"Congratulations! Player {playerOne} has won!");
             }
             else
             {
-                Console.WriteLine($"Player {playerTwo} has won");
+                Console.WriteLine($"Congratulations! Player {playerTwo} has won!");
             }
 
         }
         else
         {
-            // ConsoleColor.ForegroundColor = ConsoleColor.DarkYellow;
             System.Console.WriteLine("Neither Player could pull off a win. This game is a Draw!");
 
         }
